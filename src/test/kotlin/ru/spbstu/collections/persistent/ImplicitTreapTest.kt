@@ -4,7 +4,7 @@ import org.junit.Test
 import java.util.*
 import kotlin.test.assertEquals
 
-class ImTreapTest {
+class ImplicitTreapTest {
 
     fun testSimple(size: Int, t: ImTreap<Int>?) {
         assertEquals(size, t.size)
